@@ -28,5 +28,15 @@ Ensure the following software is installed on your machine:
    git clone <repository-url>
    cd <project-directory>
 2. Install project dependencies:
-
-3. 
+   ```bash
+   npm install express ejs
+   npm install socket.io
+### Running the Application
+To start the application and enable automatic reloading during development, follow these steps:
+1. Install nodemon globally (if you haven't already):
+   ```bash
+   npm install -g nodemon
+2. Run the application:
+   ```bash
+   npx nodemon app.js
+3. Open your browser and navigate to http://localhost:3000 to view the real-time tracking interface.
