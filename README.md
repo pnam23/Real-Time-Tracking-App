@@ -2,6 +2,10 @@
 
 A real-time device tracking application built with **Node.js**, **Express**, **Socket.IO**, and **Leaflet**. This application allows users to track their devices' locations on a map in real-time using geolocation.
 
+## Live Demo
+
+Check out the live version of the application [here](https://real-time-tracking-app-i2tm.onrender.com/).
+
 ## Features
 - **Real-time location tracking**: Track devices in real time using WebSocket communication.
 - **Interactive map interface**: Display device locations on an interactive map with **Leaflet**.
